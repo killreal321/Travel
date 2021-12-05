@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <title>Travel</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="_container">
+            <header class="header">
+                <div class="header__sections">
+                    <div class="header__logo">
+                        <img src="./img/logo.png" alt="logo">
+                    </div>
+                    <div class="header__links">
+                        <ul class="header__links__flex">
+                            <li class="header__link_item"><a href=""> Destination</a></li>
+                            <li class="header__link_item"><a href="">Offer</a></li>
+                            <li class="header__link_item"><a href="">Tour</a></li>
+                            <li class="header__link_item"><a href="">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__acc">
+                        <div class="header__acc__text"><a href="">My Account</a></div>
+                        <div class="header__acc__search"><a href=""><img src="./img/serch.png" alt="search"></a></div>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <main class="main">
+            <div class="_container">
+                <section class="main__backgound">
+                    <div class="main__info">
+                        <div class="main__title">It’s Time To <br> Explore The World</div>
+                        <a href=""><div class="main__button">Plan Your Trip</div></a>
+                    </div>
+                </section>
+                <section class="choice">
+                    <div class="range">
+                        <button class="button__range button1" onclick="document.getElementById('range').stepDown(5)"> < </button>
+                        <button class="button__range button2" onclick="document.getElementById('range').stepUp(5)"> > </button>
+                        <input id="range" type="range" />
+                    </div>
+                </section>
+                <section class="section__choice">
+                    <div class="choice__discover">
+                        <div class="titles__discover">Destinations
+                            <select name="" id="select" class="destination">
+                                <option value="">Arab Egypt</option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select>
+                        </div>
+                        <div class="titles__discover">Check In
+                            <div class="calendar__time destination">
+                                <input type="date" name="calendar" value="2021-02-01" class="destination__input_text">
+                            </div>
+                        </div>
+                        <div class="titles__discover">Price Range
+                            <div class="price__range destination">
+                                <input type="text" placeholder="$500 - $10,0000">
+                            </div>
+                        </div>
+                        <a href=""><div class="main__button" style="margin-top: 0px;">Discover Now</div></a>
+                    </div>
+                </section>
+
+                <div class="block__description__links">
+                    <div class="links__row">
+                        <div class="links__row__item">
+                            <a href=""><img style="margin-top: -14px;" src="./img/description-icons/map 1.png" alt=""></a>
+                            <div class="description__title description__title_spec">Choose Destination</div>
+                            <div class="description__subtitle">Lorem Ipsum is simply dummy <br> text of the printing setting</div>
+                        </div>
+                        <div class="links__row__item">
+                            <a href=""><img src="./img/description-icons/binocular 1.png" alt=""></a>
+                            <div class="description__title">Explore The Place</div>
+                            <div class="description__subtitle">Lorem Ipsum is simply dummy <br> text of the printing setting</div>
+                        </div>
+                        <div class="links__row__item">
+                            <a href=""><img src="./img/description-icons/backpack 1.png" alt=""></a>
+                            <div class="description__title">Start Your Journey</div>
+                            <div class="description__subtitle">Lorem Ipsum is simply dummy <br> text of the printing setting</div>
+                        </div>
+                        <div class="links__row__item">
+                            <a href=""><img src="./img/description-icons/ukelele 1.png" alt=""></a>
+                            <div class="description__title">Let’s Enjoy</div>
+                            <div class="description__subtitle">Lorem Ipsum is simply dummy <br> text of the printing setting</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top__destinat__back">
+                <div class="top__background"> </div>
+                <div class="_container">
+                    <div class="section__top__dest">
+                        <div class="top__destinat__text">
+                            <h2 class="top__title" style="margin-bottom: 40px;">Top <span style="color:#FF715B;">Destinations</span> <br> In The World</h2>
+                            <p class="top__subtitle" style="color: #A79997;">It is a long established fact that a reader will be the <br> distracted by the readable content of a page when <br> looking at its layout from it.</p>
+                            <a href=""><div class="main__button">Discover More</div></a>
+                        </div>
+                        <div class="top__destinat__item">
+                            <div class="top__destinat__link">
+                                <div class="top__destinat__pic"><a href=""><img class="img__top" src="./img/top-pics/place 1.png" alt="pic1"></a></div>
+                                <div class="top__destinat__pic"><a href=""><img class="img__top" src="./img/top-pics/place 2.png" alt="pic2"></a></div>
+                                <div class="top__destinat__pic"><a href=""><img class="img__top" src="./img/top-pics/place 3.png" alt="pic3"></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="footer">
+
+        </footer>
+    </div>
+</body>
+</html>
