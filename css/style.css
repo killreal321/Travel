@@ -303,6 +303,7 @@ input[type=range] {
 }
 .top__destinat__text{
     padding-top: 20px;
+    
 }
 h2{
     font-weight: 800;
@@ -332,16 +333,403 @@ h2{
 .top__destinat__pic{
     margin-bottom: 20px;
 }
+.offering{
+    position: relative;
+    margin-top: 180px;
+}
+.section__offering{
+    padding: 0px 0px 0px 65px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+}
+.offering__back__circle{
+    width: 54px;
+    height: 54px;
+    border: 8px solid #FF5B65;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -10px;
+}
+.offering__image{
+    position: relative;
+    height: 824px;
+    max-width: 693px;
+    flex-shrink: 0;
+}
+.img__house{
+    width: 100%;
+    height: 100%;
+}
+.yellow__fig{
+    position: absolute;
+    right: 0px;
+}
+.pattern{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.offering__text{
+    margin-left: 75px;
+    margin-top: 90px;
+}
+.offering__text__links{
+    margin-top: 16px;
+    padding-left: 90px;
+}
+.offering__link{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    padding: 52px 0px 52px;
+    position: relative;
+}
+.offering__link__border{
+    border-top: 1px solid #F1E0DD;
+    border-bottom: 1px solid #F1E0DD;
+}
+.offering__link::before{
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/Vector.png);
+    background-repeat: no-repeat;
+    color: #EDFAE3;
+    border-radius: 10px;
+    position: absolute;
+    left: -90px;
+}
+.destination__places{
+    margin-top: 180px;
+    position: relative;
+}
+.circle__green{
+    position: absolute;
+    width: 172px;
+    height: 172px;
+    background: #ABF19F;
+    filter: blur(90px);
+    top: -130px;
+    right: 100px;
+}
+.flex-container__destination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+    height: 786px;
+    align-items: flex-end;
+    position: relative;
+}
+.destination__link_upper{
+    position: relative;
+    align-self: flex-start;
+}
+.destination__link_upper::before{
+    content: "";
+    position: absolute;
+    min-width: 169px;
+    min-height: 169px;
+    background-image: url(../img/fon-img/1.png);
+    left: -199px;
+}
+.destination__link_upper::after{
+    content: "";
+    position: absolute;
+    min-width: 147px;
+    min-height: 169px;
+    background-image: url(../img/fon-img/2.png);
+    top: 0px;
+    left: 106.6%;
+}
+.link__low__block{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 51px;
+    padding: 20px 17px 20px 34px;
+    box-shadow: 0px 10px 25px rgba(215, 190, 190, 0.2);
+    margin-top: -52px;
+    background: #fff;
+}
+.link__low__block__title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+}
+.low__block__price-rating-review{
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: row;
+}
+.link__low__block-price{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FF715B;
+    margin-right: 30px;
+}
+.link__low__block-rating{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.link__low__block-review{
+    color: #A79997;
+}
+.link__low__block__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button__all-places{
+    position: absolute;
+    top: 85.24%;
+    left: 43.15%;
+}
+.reviews{
+    margin-top: 200px;
+    position: relative;
+}
+.reviews__item{
+    position: relative;
+    margin: 0 auto;
+    max-width: 690px;
+    padding: 70px 60px;
+    text-align: center;
+    margin-top: 100px;
+    box-shadow: 0px 20px 30px rgba(227, 202, 202, 0.3);
+    border-top: 12px solid #FF715B;
+    z-index: 10;
+}
+.reviews__item__main-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.reviews__item-text{
+    text-align: start;
+    margin-left: 20px;
+}
+.reviews__item__description{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+}
+.reviews__item__animation-point{
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.item-point{
+    width: 10px;
+    height: 10px;
+    background: #C4C4C4;
+    border-radius: 50%;
+}
 
-
-
-
-
-
-
-
-
-
+.pic__1{
+    position: absolute;
+    top: 292px;
+    left: 13.33%;
+    width: 54px;
+    height: 54px;
+    border: 5px solid #C549FF;
+    border-radius: 50%;
+}
+.pic__2{
+    position: absolute;
+    top: 430px;
+    left: 2.44%;
+    width: 54px;
+    height: 54px;
+    border: 5px solid #FFCA45;
+    border-radius: 50%;
+}
+.pic__3{
+    position: absolute;
+    top: 486px;
+    left: 16.54%;
+    width: 85px;
+    height: 85px;
+    border: 7px solid #FF4567;
+    border-radius: 50%;
+}
+.pic__4{
+    position: absolute;
+    top: 650px;
+    left: 3.21%;
+    width: 86px;
+    height: 86px;
+    border: 5px solid #5F45FF;
+    border-radius: 50%;
+}
+.circle__blue{
+    position: absolute;
+    width: 172px;
+    height: 172px;
+    background: #9CD9EC;
+    filter: blur(84px);
+    top: -50px;
+}
+.circle__pink{
+    position: absolute;
+    top: 71.15%;
+    left: 82.17%;
+    width: 242px;
+    height: 242px;
+    border-radius: 50%;
+    background: #FFF8F8;
+}
+.dowload_app{
+    position: relative;
+    margin-top: 200px;
+    width: 100%;
+    background: linear-gradient(90deg, #A6F2F2 0%, #DDF181 100%);    
+    display: flex;
+    flex-direction: row;
+}
+.download__app_col{
+    padding: 157px 0px 158px 134px;
+    flex: 0 1 50%;
+    max-height: 550px;
+}
+.download__app_buttons_row{
+    margin-top: 60px;
+}
+.images-app-block{
+    position: relative;
+    height: 300px;
+    flex: 0 0 50%;
+}
+.images-app-block__pics{
+    height: 550px;
+}
+.first_phone{
+    position: absolute;
+    width: 297px;
+    height: 368px;
+    background-image: url(../img/footer-images-phones/screen.png);
+    background-repeat: no-repeat;
+    bottom: -255px;
+    right: 316px;
+    text-align: center;
+    padding-top: 28px;
+    z-index: 4;
+    border: 5px solid #FFF;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.second_phone{
+    position: absolute;
+    right: 91.48px;
+    bottom: -255px;
+    z-index: 2;
+    border: 5px solid #FFF;
+    border-top-left-radius:50px;
+    border-top-right-radius: 50px;
+}
+.back__plane{
+    position: absolute;
+    bottom: 90px;
+    right: 405px;
+}
+footer{
+    margin-top: 180px;
+}
+footer a{
+    color: #A79997;
+}
+.footer_contacts-subtitle{
+    color: #A79997;
+    margin-bottom: 30px;
+}
+.footer__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 90px;
+    border-bottom: 1px solid #F5EBE9;
+}
+.footer__title{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.footer_contacts-logo{
+    margin-bottom: 26px;
+}
+.footer__column__links{
+    display: flex;
+    flex-direction: column;
+    height: 195px;
+    justify-content: space-between;
+}
+.footer__links-link::before{
+    content: "-";
+    color: #C4C4C4;;
+    margin-right: 15px;
+} 
+.footer_contacts-phones{
+    position: relative;
+    margin-left: 32px;
+}
+.footer_contacts-phones::before{
+    content: "";
+    width: 23px;
+    height: 23px;
+    background-image: url(../img/footer-images-phones/1.png);
+    position: absolute;
+    left: -32px;
+}
+.footer_contacts-email{
+    position: relative;
+    margin-left: 32px;
+}
+.footer_contacts-email::before{
+    content: "";
+    width: 22px;
+    height: 18px;
+    background-image: url(../img/footer-images-phones/Vector.png);
+    position: absolute;
+    left: -32px;
+    top: 5px;
+}
+.footer_contacts-site{
+    position: relative;
+    margin-left: 32px;
+}
+.footer_contacts-site::before{
+    content: "";
+    width: 20px;
+    height: 24px;
+    background-image: url(../img/footer-images-phones/Union.png);
+    position: absolute;
+    left: -32px;
+    top: 4px;
+}
+.footer__input{
+    width: 400px;
+    height:60px;
+    background: #F8F8F8;
+    border: 1px solid #F5EBE9;
+}
+.copyright{
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+    color: #A79997;
+}
 
 
 
@@ -361,10 +749,15 @@ h2{
     .top__subtitle{max-width: 320px;}
     .top__destinat__item{
         margin-left: 16px;}
+    .flex-container__destination{flex-direction: column; align-items: center; height: auto;}
+    .destination__link_upper{align-self: center;}
+    .button__all-places{top: 97.24%;}
 }
 @media (max-width:1366px) {
     /* ._container{max-width: 1024px;} */
     .main__backgound{ background-size: cover;}
+    .offering__text{
+        margin-left: 25px;}
 }
 @media (max-width:1024px) {
     /* ._container{max-width: none} */
@@ -375,6 +768,29 @@ h2{
     .choice{float: none;margin-bottom: 77px;}
     .top__destinat__link{flex-wrap: wrap;}
     h2{font-size: 38px;}
+    .section__offering{flex-wrap: wrap;}
+    .offering__text{margin-left: 0px;margin-top: 20px;}
+    .section__offering{padding-left: 0px;}
+    .circle__green{max-width: 130px; max-height: 130px;}
+    .circle__blue{max-width: 130px; max-height: 130px;}
+    .reviews__background_pic {display: none;}
+    /* .dowload_app{flex-direction: column; height: 100%;}
+    .images-app-block{height: 500px;} */
+}
+@media (max-width:1230px) {
+    .dowload_app{flex-direction: column;}
+    .download__app_col{padding: 57px 0px 88px 60px;}
+    .second_phone{ right: 0px; bottom: 0px;}
+    .back__plane{right: 8.10%; bottom: 300px; right: 35.10%;}
+    .first_phone { right: 130px; bottom: 0px;}
+    .footer__row{flex-direction: column; align-items: center; text-align: center; gap: 80px;}
+}
+@media (max-width:880px) {
+    .second_phone{max-width: 27.3%; min-width:180px; right: 0px; bottom: 0px;}
+    .back__plane{max-width: 48.29%; min-width:260px; right: 8.10%; bottom: 300px;}
+    .first_phone {max-width: 25%; min-width: 154px; height: auto; right: 130px; bottom: 0px;}
+    /*.first_phone{max-width: 230px; max-height: 300px; bottom: 0px;} */
+    
 }
 @media (max-width:500px) {
     /* ._container{max-width: 1024px;} */
@@ -386,4 +802,18 @@ h2{
         margin-right: 0px;}
     .section__top__dest{flex-wrap: wrap;}
     .top__destinat__item{margin-top: 80px;}
+    .offering__image{height: auto; flex-shrink: 1;}
+    .offering__back__circle{display: none;}
+    .link__low__block{margin-left: 0px;}
+    .link__low__block__title{font-size: 16px;}
+    .link__low__block-price{font-size: 12px; margin-right: 13px;}
+    .link__low__block-review{font-size: 12px;}
+    .link__low__block-rating img{max-width: 9px;}
+    .link__low_block_title_prr{flex-shrink: 0;}
+    .link__low__block__button{margin-right: 0px; max-height: 40px;}
+    .button__all-places{top: 95.24%;left: 15.15%;}
+    .reviews__item{padding: 20px 10px;}
+    .download__app_title{font-size: 28px;line-height: 45px;}
+    .download__app_col{padding: 27px 0px 88px 30px;}
+    .google-play{margin-bottom: 50px; margin-top: 25px;}
 }
