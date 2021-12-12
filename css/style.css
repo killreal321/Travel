@@ -123,6 +123,13 @@ header{
     background: #FF715B;
     color: #fff;
     margin-top: 50px;
+    transition: box-shadow 0.5s, border-radius 0.3s;
+}
+.main__button:hover{
+    -webkit-box-shadow: 0px 9px 28px 0px #FF715B;
+    -moz-box-shadow: 0px 9px 28px 0px #FF715B;
+    box-shadow: 0px 9px 28px 0px rgba#FF715B;
+    border-radius: 20px;    
 }
 .range{
     margin-top: 30px;
@@ -254,6 +261,7 @@ input[type=range] {
 .links__row__item{
     margin-right: 30px;
     margin-bottom: 30px;
+    transition: box-shadow 0.4s;
 }
 .description__title{
     margin-top: 24px;
@@ -277,7 +285,6 @@ input[type=range] {
 }
 .links__row__item:hover{
     box-shadow: 0px 10px 30px 5px rgba(219, 200, 197, 0.2);
-    transition-duration: 0.4s;
 }
 
 .top__destinat__back{
@@ -648,6 +655,7 @@ footer{
 }
 footer a{
     color: #A79997;
+    transition: color;
 }
 .footer_contacts-subtitle{
     color: #A79997;
@@ -681,6 +689,9 @@ footer a{
     color: #C4C4C4;;
     margin-right: 15px;
 } 
+footer a:hover{
+    color: #FF715B;
+}
 .footer_contacts-phones{
     position: relative;
     margin-left: 32px;
